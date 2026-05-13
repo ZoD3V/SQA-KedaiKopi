@@ -27,7 +27,23 @@ WebUI.setText(findTestObject('Page_Login/Valid/Page_Order Cafe  Login/input_Pass
 
 WebUI.click(findTestObject('Page_Login/Valid/Page_Order Cafe  Login/button_Login'))
 
-WebUI.click(findTestObject('Page_Login/Valid/Page_Create Next App/button_Access Dashboard'))
+boolean isLoginSuccess = WebUI.waitForElementVisible(
+	findTestObject('Page_Login/Valid/Page_Create Next App/button_Access Dashboard'),
+	10,
+	FailureHandling.OPTIONAL
+)
+
+if (isLoginSuccess) {
+
+	WebUI.click(findTestObject('Page_Login/Valid/Page_Create Next App/button_Access Dashboard'))
+
+	WebUI.comment('LOGIN SUCCESS : ' + username)
+
+} else {
+
+	WebUI.comment('LOGIN FAILED : ' + username)
+
+	KeywordUtil.markFailed('Login gagal untuk username: ' + username)
+}
 
 WebUI.closeBrowser()
-
