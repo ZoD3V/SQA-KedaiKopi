@@ -17,17 +17,22 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.openBrowser('https://pos.bling.my.id/')
 
-WebUI.navigateToUrl('https://pos.bling.my.id/')
+WebUI.setText(findTestObject('Page_Menu/Table-Change/Page_KedaiKopi  Login/input_Email__R_1inpfl5tlb_-form-item'), 'vour@gmail.com')
 
-WebUI.setText(findTestObject('Page_Login/Invalid/Page_Order Cafe  Login/input_Username'), 'vour@gmail.com')
+WebUI.setEncryptedText(findTestObject('Page_Menu/Table-Change/Page_KedaiKopi  Login/input_Password__R_2inpfl5tlb_-form-item'), 
+    '8bIcDAq1IGk=')
 
-WebUI.setEncryptedText(findTestObject('Page_Login/Invalid/Page_Order Cafe  Login/input_Password'), 'QM0JXAx6W6Q=')
+WebUI.click(findTestObject('Page_Menu/Table-Change/Page_KedaiKopi  Login/button_Login'))
 
-WebUI.click(findTestObject('Page_Login/Invalid/Page_Order Cafe  Login/button_Login'))
+WebUI.click(findTestObject('Page_Menu/Table-Change/Page_Create Next App/button_Access Dashboard'))
 
-WebUI.verifyElementVisible(findTestObject('null'))
+WebUI.navigateToUrl('https://pos.bling.my.id/admin')
 
-WebUI.closeBrowser()
+WebUI.click(findTestObject('Page_Menu/Search-Manual/Page_KedaiKopi  Order Management/a_Order'))
+
+WebUI.click(findTestObject('Page_Menu/Table-Change/Page_KedaiKopi  Order Management/button_Order List'))
+
+WebUI.click(findTestObject('Page_Menu/Table-Change/Page_KedaiKopi  Order Management/button_Table Map'))
 

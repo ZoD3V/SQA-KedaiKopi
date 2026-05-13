@@ -21,13 +21,21 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://pos.bling.my.id/')
 
-WebUI.setText(findTestObject('Page_Login/Invalid/Page_Order Cafe  Login/input_Username'), 'vour@gmail.com')
+WebUI.setText(findTestObject('Page_Menu/Search/Page_KedaiKopi  Login/input_Username'), 'order@gmail.com')
 
-WebUI.setEncryptedText(findTestObject('Page_Login/Invalid/Page_Order Cafe  Login/input_Password'), 'QM0JXAx6W6Q=')
+WebUI.setEncryptedText(findTestObject('Page_Menu/Search/Page_KedaiKopi  Login/input__'), 'CEuORLdR8aA=')
 
-WebUI.click(findTestObject('Page_Login/Invalid/Page_Order Cafe  Login/button_Login'))
+WebUI.click(findTestObject('Page_Menu/Search/Page_KedaiKopi  Login/button_Login'))
 
-WebUI.verifyElementVisible(findTestObject('null'))
+WebUI.click(findTestObject('Page_Menu/Search/Page_Create Next App/button_Access Dashboard'))
+
+WebUI.click(findTestObject('Page_Menu/Search/Page_KedaiKopi  Dashboard/span_Order'))
+
+WebUI.setText(findTestObject('Page_Menu/Search/Page_KedaiKopi  Order Management/input_Search'), 'WPUCAFE0018')
+
+WebUI.click(findTestObject('Page_Menu/Search/Page_KedaiKopi  Order Management/input_Search'))
+
+WebUI.click(findTestObject('Page_Menu/Search/Page_KedaiKopi  Order Management/td_No Result Data'))
 
 WebUI.closeBrowser()
 

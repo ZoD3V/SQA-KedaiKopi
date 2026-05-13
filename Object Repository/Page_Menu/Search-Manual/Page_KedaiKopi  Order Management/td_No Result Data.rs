@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>td_No Result Data</name>
+   <tag></tag>
+   <elementGuidId>f8c71038-e67d-42f6-9c44-99e308d13c89</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='radix-_R_2npfl5tlb_-content-list']/div[2]/div/div/table/tbody/tr/td</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=cell[name=&quot;No Result Data&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>64a7550d-1d78-4c99-a3bc-2562091a908e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-slot</name>
+      <type>Main</type>
+      <value>table-cell</value>
+      <webElementGuid>ac2a6ef8-17e1-4b90-8905-43506d17fa4c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;>[role=checkbox]]:translate-y-[2px] h-24 text-center</value>
+      <webElementGuid>7ef3daf2-f5f5-4bd9-8223-781d372c213d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>colspan</name>
+      <type>Main</type>
+      <value>6</value>
+      <webElementGuid>a1d02acb-7ef4-43fe-b934-980e156a341a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>No Result Data</value>
+      <webElementGuid>c7384f58-3484-46b4-99cf-60ea3f0f608d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;radix-_R_2npfl5tlb_-content-list&quot;)/div[@class=&quot;w-full flex flex-col gap-4&quot;]/div[@class=&quot;bg-card text-card-foreground flex flex-col gap-6 rounded-xl border shadow-sm p-0&quot;]/div[@class=&quot;relative w-full overflow-x-auto&quot;]/table[@class=&quot;caption-bottom text-sm w-full rounded-lg overflow-hidden&quot;]/tbody[@class=&quot;[&amp;_tr:last-child]:border-0&quot;]/tr[@class=&quot;hover:bg-muted/50 data-[state=selected]:bg-muted border-b transition-colors&quot;]/td[@class=&quot;p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;>[role=checkbox]]:translate-y-[2px] h-24 text-center&quot;]</value>
+      <webElementGuid>0646fe74-fffa-4b0d-9d02-a2f2e21bea51</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='radix-_R_2npfl5tlb_-content-list']/div[2]/div/div/table/tbody/tr/td</value>
+      <webElementGuid>66f09a51-c830-46dd-a29c-79d39a82cd6b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Action'])[1]/following::td[1]</value>
+      <webElementGuid>2e693571-efef-4641-92c6-3c23c3d3f0ee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Status'])[1]/following::td[1]</value>
+      <webElementGuid>82ca03bc-3d9d-4f5d-8d1b-10a9a9145268</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Limit'])[1]/preceding::td[1]</value>
+      <webElementGuid>0c918d93-f3fc-41bb-aed4-cb71bb372465</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='No Result Data']/parent::*</value>
+      <webElementGuid>95353bd5-daef-4ab4-9341-d9862d36f572</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td</value>
+      <webElementGuid>b0f2988e-d039-47e6-a902-5746528f15f8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = 'No Result Data' or . = 'No Result Data')]</value>
+      <webElementGuid>af56fad2-dd7f-476c-a3c0-59a2816774bd</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
